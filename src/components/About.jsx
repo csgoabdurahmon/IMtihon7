@@ -50,9 +50,16 @@ export default function About() {
       </div>
     )
   }
-  const images = Array.isArray(product.pictures) ? product.pictures : []
+  // (moved images declaration after product is loaded)
+    const images = Array.isArray(product.pictures) ? product.pictures : []
+
+    // Long description about flowers (placeholder)
+  
 
   return (
+    
+    <>
+     
     <div className="mx-auto max-w-6xl px-4 py-10">
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
         {/* Left: Image gallery */}
@@ -132,7 +139,11 @@ export default function About() {
             <a href="#" className="text-[#46A358] hover:text-green-700"><i className="far fa-envelope" /></a>
           </div>
         </div>
+
       </div>
+
     </div>
+</>
+    
   )
 }
