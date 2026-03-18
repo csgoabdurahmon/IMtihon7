@@ -42,7 +42,7 @@ export default function HeroSection() {
   return (
     <section className="w-full bg-[#FBFBFB] py-8 sm:py-12">
       <div className="container flex flex-col-reverse items-center justify-between gap-8 px-4 py-8 md:flex-row md:gap-0 md:py-12 lg:py-16">
-        {/* Left: Text */}
+        
         <div className="w-full max-w-xl text-left md:pl-4 lg:pl-8">
           <p className="mb-2 text-[14px] font-medium tracking-[0.1em] text-[#3D3D3D]">WELCOME TO GREENSHOP</p>
           <h1 className="mb-4 text-[40px] font-black leading-[1.1] text-[#3D3D3D] md:text-[48px] lg:text-[58px]">

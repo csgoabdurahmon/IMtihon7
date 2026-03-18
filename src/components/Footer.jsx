@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="bg-[#FBFBFB] border-t border-[#EAEAEA] mt-16">
       <div className="container py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
-          {/* Features */}
+       
           <div className="flex flex-col gap-4 md:col-span-3 md:flex-row md:gap-0 md:justify-between">
             <div className="flex-1 flex items-start gap-4">
               <img src="https://img.icons8.com/ios/64/4caf50/cactus.png" alt="Garden Care" className="h-12 w-12" />
